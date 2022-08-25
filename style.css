@@ -14,23 +14,20 @@
 }
 
 body {
+  display: flex;
+  flex-direction: columnn;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  min-height: 100vh;
+  text-align: center;
   background-color: hsl(212, 45%, 89%);
-
 }
 
 
 /*******************************************
 /* LAYOUT
 /*******************************************/
-
-.container {
-  display: flex;
-  flex-direction: columnn;
-  align-items: center;
-  justify-content: center;
-  margin: 10em 0 3em 0;
-  text-align: center;
-}
 
 .card {
   display: flex;
@@ -41,7 +38,7 @@ body {
   padding: 1em;
   border-radius: 1em;
   width: 15em;
-  max-width: 70%;
+  /* max-width: 90%; */
 }
 
 .card-img {
@@ -71,11 +68,11 @@ body {
   margin: 0 0 0.3em 0;
 }
 
-* .attribution {
+/* * .attribution {
   font-size: 0.6875em;
   text-align: center;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
+} */
